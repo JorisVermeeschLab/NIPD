@@ -1,0 +1,24 @@
+####input information
+
+[mydir]
+fastqdir=/fastqdir/
+workdir=/workdir/
+
+[mytool]
+samtools=samtools
+bwa=bwa
+java=java
+picard=picard
+fastqc=fastqc
+gatk=gatk
+Rscript=Rscript
+
+[myfile]
+samplelist=samplelist
+reference=reference
+target=target.bed
+targetflank50=targetflank50.bed
+targetflank100=targetflank100.bed
+targetSNPref=snp.bed
+dbsnpref=dbsnp.vcf
+pedfile=family.ped
